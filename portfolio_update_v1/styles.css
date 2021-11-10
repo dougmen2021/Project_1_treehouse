@@ -70,15 +70,15 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid gray;
+  border: 15px solid gray;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(2) rotate(90deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: #orange;
+  color: Orange;
   padding: 10px;
   border-radius: 50px gray;
   display: table;
