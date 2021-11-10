@@ -55,6 +55,24 @@ nav {
   color: white
 }
 
+.first-pic{
+  border-radius: 50px;
+  border-color: gray;
+  border: 20px solid;
+  padding:10px;
+}
+
+.middle-pic{
+  border-color: orange;
+  border:15px dashed;
+  border-radius: 100px;
+}
+
+.third-pic{
+  border-color: darkgray;
+  border-radius: 50%;
+  border: 25px dotted;
+}
 .main-header {
   text-align: center;
   background: url('https://upload.wikimedia.org/wikipedia/commons/3/36/Philadelphia_from_South_Street_Bridge_July_2016_panorama_2.jpg') no-repeat top center ;
@@ -77,10 +95,11 @@ header .profile-image:hover {
   transform: scale(2) rotate(90deg);
 }
 .tag {
-  background-color: #orange;
+  background-color: gray;
   color: Orange;
   padding: 10px;
-  border-radius: 50px gray;
+  border-radius: 50px;
+  border: gray 15px;
   display: table;
   margin: 10px auto;
 } 
