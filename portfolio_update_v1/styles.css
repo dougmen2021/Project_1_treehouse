@@ -10,6 +10,13 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #222;
   background: #f7f5f0;
+  margin-top:1%;
+}
+
+
+
+li{
+  list-style-type:none;
 }
 /* Link Styles */
 
@@ -29,21 +36,26 @@ a:hover {
   min-height: 30px;
   padding: 10px;
   position: fixed;
-  text-align: center;
+  text-align: auto;
 }
 .main-nav {
   display: flex;
+  display:row;
   justify-content: space-around;
   font-weight: 700;
   list-style-type: none;
-  margin: 0 auto;
   padding: 0;
+  position: fixed;
+  margin-top:0px;
 }
 
 .main-nav .name {
-    display: block;
+    display: flex;
+    justify-content:space-around;
     margin-right: auto;
     color: white;
+    font-size:80%;
+    margin-top:0px;
 }
 .main-nav li {
   padding: 5px 10px 10px 10px;
@@ -52,7 +64,7 @@ a:hover {
   transition: all .5s;
 }
 .main-nav a:hover {
-  color: white
+  color: orange;
 }
 
 .first-pic{
@@ -194,7 +206,7 @@ a.social:hover {
       margin: 0 auto;
   }
 
-  header {
+  .main-header {
     min-height: 470px;
   }
 
